@@ -1,3 +1,12 @@
 /* 
     Write your custom CSS here and also abstract your Tailwind css using @apply
 */
+
+.glass {
+  background: rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 80px rgb(0 0 0 / 20%);
+  border-radius: 15px;
+}

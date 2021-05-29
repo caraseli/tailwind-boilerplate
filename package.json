@@ -19,8 +19,10 @@
   "author": "Emmanuel Raymond",
   "license": "MIT",
   "dependencies": {
+    "alpinejs": "^2.8.2",
     "autoprefixer": "^10.1.0",
-    "tailwindcss": "^2.0.2"
+    "tailwindcss": "^2.0.2",
+    "tailwindcss-filters": "^3.0.0"
   },
   "devDependencies": {
     "concurrently": "^6.0.2",

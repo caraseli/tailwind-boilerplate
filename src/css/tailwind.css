@@ -1,6 +1,26 @@
 /* purgecss start ignore */
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import './styles.css'; /* Custom CSS. Ensure this comes before the tailwind utilities*/
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "./styles.css"; /* Custom CSS. Ensure this comes before the tailwind utilities*/
 /* purgecss end ignore */
-@import 'tailwindcss/utilities';
+@import "tailwindcss/utilities";
+
+:root {
+  @apply light;
+}
+
+.dark {
+  --color-bg-primary: #17224d;
+  --color-bg-secondary: #021e69;
+  --color-text-primary: #cccccc;
+  --color-text-secondary: #56575a;
+  --color-text-accent: #475886;
+}
+
+.light {
+  --color-bg-primary: #f5fafa;
+  --color-bg-secondary: #0abbab;
+  --color-text-primary: #171718;
+  --color-text-secondary: #71737a;
+  --color-text-accent: #015bf7;
+}
